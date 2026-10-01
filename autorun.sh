@@ -66,6 +66,7 @@ echo "4.6:"
 ls -laRi | grep -E '^[0-9]+ -[^ ]+ +2 ' | sort -k1 -n
 echo "4.7:"
 ls -laR | grep '^l' | grep -v 'final' | sort -k9
+
 echo "Пункт 5: Удаление файлов, ссылок и каталогов"
 rm claude_monet/office/max_report
 rm final_menu
