@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm -rf claude_monet final_menu
 
 echo "Пункт 1: Создание структуры дерева каталогов и файлов"
